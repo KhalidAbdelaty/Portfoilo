@@ -383,6 +383,7 @@ span {
 }
 
 
+/*  BREAKPOINTS   */
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
