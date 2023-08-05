@@ -379,6 +379,11 @@ span {
     overflow: hidden;
 }
 
+.slide-8 p ul {
+    font-size: 60%;
+    text-align: center;
+}
+
 .courses-content .courses-slide {
     display: flex;
     flex-direction: column;
