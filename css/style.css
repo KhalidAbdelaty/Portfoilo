@@ -411,6 +411,27 @@ span {
     color: var(--main-color);
 }
 
+.courses-box .swiper-button-next,
+.courses-box .swiper-button-prev {
+    color: var(--main-color);
+}
+
+.courses-box .swiper-button-next {
+    right: 0;
+}
+
+.courses-box .swiper-button-prev {
+    left: 0;
+}
+
+.courses-box .swiper-pagination-bullet {
+    background: var(--main-color);
+}
+
+.courses-box .swiper-pagination-bullet-active {
+    background: var(--main-color);
+}
+
 .contact h2 {
     margin-bottom: 3rem;
 }
@@ -504,6 +525,9 @@ span {
         padding-bottom: 7rem;
     }
     .portfoilo {
+        padding-bottom: 7rem;
+    }
+    .courses {
         padding-bottom: 7rem;
     }
     .contact {

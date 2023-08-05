@@ -61,6 +61,8 @@ const typed = new Typed('.multiple-text', {
 
 /*======== swiper =======*/
 var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 50,
     grabCursor: true,
     navigation: {
         nextEl: '.swiper-button-next',
