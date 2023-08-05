@@ -15,6 +15,7 @@
     --sceond-bg-color: #323946;
     --text-color: #fff;
     --main-color: #0ef;
+    --shadow-color: #fff;
 }
 
 html {
@@ -305,6 +306,61 @@ span {
 .portfoilo-layer a i {
     font-size: 2rem;
     color: var(--sceond-bg-color);
+}
+
+.courses-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 5rem 1rem;
+}
+
+.courses-container .courses-wrapper {
+    position: relative;
+    max-width: 90rem;
+    width: 100%;
+    padding: 5rem;
+}
+
+.courses-content .courses-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--bg-color);
+    border-radius: 2rem;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+    padding: 3rem 5rem;
+    border-top: .8rem solid var(--main-color);
+    border-bottom: .8rem solid var(--main-color);
+}
+
+.courses-slide img {
+    width: 14rem;
+    height: 14rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .5rem solid var(--bg-color);
+    outline: .5rem solid var(--main-color);
+}
+
+.courses-slide h3 {
+    padding: 3rem 5rem;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+.courses-slide p ul {
+    font-size: 19;
+    text-align: center;
+}
+
+.my-link {
+    color: white;
+}
+
+.my-link:hover {
+    color: var(--main-color);
 }
 
 .contact h2 {
