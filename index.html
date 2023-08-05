@@ -15,6 +15,9 @@
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <!--Custom Css -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -157,9 +160,9 @@
         <div class="courses-container">
             <h2 class="heading">Cou<span>rses</span></h2>
             <div class="courses-wrapper">
-                <div class="courses-box">
-                    <div class="courses-content">
-                        <div class="courses-slide">
+                <div class="courses-box swiper-container">
+                    <div class="courses-content swiper-wrapper">
+                        <div class="courses-slide swiper-slide">
                             <img src="images/IBM.jpg" alt="">
                             <a href="https://www.coursera.org/account/accomplishments/verify/FG5FEGXABZ87?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" class="my-link">
                                 <h3>Python for Data Science, AI & Development
@@ -173,7 +176,7 @@
                                 <li>Web Data Access: I learn how to access web data through APIs and perform web scraping using Python in Jupyter Notebooks.</li>
                             </ul>
                         </div>
-                        <div class="courses-slide">
+                        <div class="courses-slide swiper-slide">
                             <img src="images/Google.jpeg" alt="">
                             <a href="https://www.coursera.org/account/accomplishments/verify/HWZ4VW99WETL?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" class="my-link">
                                 <h3>Foundations: Data, Data, Everywhere</h3>
@@ -186,7 +189,7 @@
                                 <li>Data Analyst Role: I learn what a data analyst does, what skills they need, and what jobs they can pursue.</li>
                             </ul>
                         </div>
-                        <div class="courses-slide">
+                        <div class="courses-slide swiper-slide">
                             <img src="images/Google.jpeg" alt="">
                             <a href="https://www.coursera.org/account/accomplishments/verify/57M3LEWDPM6P?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" class="my-link">
                                 <h3>Ask Questions to Make Data-Driven Decisions</h3>
@@ -202,7 +205,7 @@
                                 <li>Spreadsheets: I learn how to use spreadsheets to perform basic tasks of the data analyst such as entering and organizing data, applying formulas and functions, creating charts and tables, and formatting and validating data.</li>
                             </ul>
                         </div>
-                        <div class="courses-slide">
+                        <div class="courses-slide swiper-slide">
                             <img src="images/Google.jpeg" alt="">
                             <a href="https://www.coursera.org/account/accomplishments/verify/V8XG8KBJS8XV?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" class="my-link">
                                 <h3>Prepare Data for Exploration</h3>
@@ -216,7 +219,7 @@
                                 <li>Data Organization: I learn how to organize data in a clear and consistent way. I learn the best practices for naming, labeling, sorting, filtering, and grouping data.</li>
                             </ul>
                         </div>
-                        <div class="courses-slide">
+                        <div class="courses-slide swiper-slide">
                             <img src="images/IBM.jpg" alt="">
                             <a href="https://www.coursera.org/account/accomplishments/verify/XCGFP2WHGSMD?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" class="my-link">
                                 <h3>Python Project for Data Engineering</h3>
@@ -231,7 +234,7 @@
                                 <li>Jupyter Notebooks: I learn how to use Jupyter notebooks as a tool for data engineering. I learn how to create, run, and share Jupyter notebooks that contain Python code, data, and visualizations.</li>
                             </ul>
                         </div>
-                        <div class="courses-slide">
+                        <div class="courses-slide swiper-slide">
                             <img src="images/IBM.jpg" alt="">
                             <a href="https://www.coursera.org/account/accomplishments/verify/KKB8QLG4Q9UN?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" class="my-link">
                                 <h3>Introduction to Data Analytics</h3>
@@ -247,6 +250,13 @@
                             </ul>
                         </div>
                     </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
@@ -281,6 +291,9 @@
             <a href="#home"><i class="bx bx-up-arrow-alt" ></i></a>
         </div>
     </footer>
+
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!--Scroll reveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
