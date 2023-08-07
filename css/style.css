@@ -384,6 +384,24 @@ span {
     text-align: center;
 }
 
+.slide-9 {
+    padding: 1rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.slide-10 {
+    padding: 1rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.slide-11 {
+    padding: 1rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
 .courses-content .courses-slide {
     display: flex;
     flex-direction: column;
